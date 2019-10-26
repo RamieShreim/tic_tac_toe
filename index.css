@@ -19,8 +19,16 @@
     border-color: black;
     width: 200px;
     height: 200px;
-    background-color: gray;
+    background-color: rgb(216, 216, 216);
 }
+
+p {
+    font-size: 100px;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+
 
 /*cells ids*/
 
