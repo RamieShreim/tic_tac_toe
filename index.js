@@ -21,6 +21,8 @@ var canC9 = true;
 
 //buttons//
 
+
+
 //top left//
 
 $("#c1").click(function () {
@@ -154,4 +156,10 @@ $("#c9").click(function () {
             canC9 = false;
         }
     }
+});
+
+// play again //
+
+$(".refresh").click(function () {
+    location.reload(true);
 });

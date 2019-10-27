@@ -1,7 +1,7 @@
 .grid {
-    width: 600px;
-    height: 600px;
-    margin: 100px auto;
+    width: 450px;
+    height: 450px;
+    margin: 10px auto;
     display: grid;
     grid-template-columns: 1fr, 1fr, 1fr;
     grid-template-rows: 1fr, 1fr, 1fr;
@@ -17,15 +17,16 @@
     border-style: solid;
     border-width: 3px;
     border-color: black;
-    width: 200px;
-    height: 200px;
-    background-color: rgb(216, 216, 216);
+    width: 150px;
+    height: 150px;
+    
 }
 
-p {
+.cell p {
     font-size: 100px;
     margin: 0 auto;
-    margin-top: 20%;
+    margin-top: 0%;
+    font-family: 'Permanent Marker', cursive;
 }
 
 
@@ -66,4 +67,21 @@ p {
 
 #c9 {
     grid-area: c9;
+}
+
+/* instructions */
+
+.instructions {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.refresh {
+    cursor: pointer;
+}
+
+.refresh:hover {
+    color: gray;
 }
